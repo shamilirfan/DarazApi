@@ -1,0 +1,35 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "name": "Md A Salam"
+    },
+    {
+      "id": 2,
+      "name": "A Majid",
+      "age": 9
+    },
+    {
+      "id": 3,
+      "name": "Muslim",
+      "age": 23
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
