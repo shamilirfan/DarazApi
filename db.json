@@ -1,18 +1,79 @@
 {
-  "staff": [
+  "productList": [
     {
-      "id": 1,
-      "name": "Md A Salam"
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-1.jpg"
     },
     {
-      "id": 2,
-      "name": "A Majid",
-      "age": 9
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-2.jpg"
     },
     {
-      "id": 3,
-      "name": "Muslim",
-      "age": 23
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-3.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-4.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-5.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-6.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-7.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-8.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-9.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-10.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-11.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-12.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-13.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-14.jpg"
+    },
+    {
+      "p1": "Samsung Galaxy Smartphone",
+      "p2": "৳ 30,405",
+      "image": "i-15.jpg"
     }
   ],
   "posts": [

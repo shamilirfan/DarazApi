@@ -6,7 +6,6 @@ import Navber from './Navber';
 import Advertise2 from './Advertise2';
 import Advertise3 from './Advertise3';
 import FetchApi from './FetchApi';
-import FullPage from './ProductList';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<FetchApi />} />
-        <Route path="/fullpage" element={<FullPage />} />
       </Routes>
     </div>
   );

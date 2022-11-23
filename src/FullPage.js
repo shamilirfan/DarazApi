@@ -91,26 +91,25 @@ const productList = [
   }
 ];
 
+
 function FullPage() {
-  const pTags = productList.map((product) => (
-    <div>
-      <image src={product.image} className="w-11/12 h-2/6 mt-[34%] rounded-md shadow-lg overflow-hidden" />
-      <p className="text-1xl hover:text-blue-600">{product.p1}</p>
-      <p className="mt-2 text-orange-600">{product.p2}</p>
-    </div>
-  ));
-  return (
-    <div className='flex w-full h-full mt-11'>
-      <div className='w-2/12 h-full'></div>
-      <div className='flex flex-col w-8/12 h-full'>
-        {pTags}
+    const pTags = productList.map((product) => (
+      <div>
+        <image src={product.image} className="w-11/12 h-2/6 mt-[34%] rounded-md shadow-lg overflow-hidden" />
+        <p className="text-1xl hover:text-blue-600">{product.p1}</p>
+        <p className="mt-2 text-orange-600">{product.p2}</p>
       </div>
-      <div className='w-2/12 h-full'></div>
-    </div>
-  );
-}
-export default FullPage;
-
-
-
-
+    ));
+    return (
+      <div className='flex w-full h-full mt-11'>
+        <div className='w-2/12 h-full'></div>
+        <div className='flex flex-col w-8/12 h-full'>
+          {pTags}
+        </div>
+        <div className='w-2/12 h-full'></div>
+      </div>
+    );
+  }
+  export default FullPage;
+  
+  
