@@ -19,7 +19,7 @@ function Signin() {
             body: JSON.stringify(user),
         })
             .then(response => {
-                if(response.status === 200){
+                if (response.status === 200) {
                     return response.json()
                 }
             })
