@@ -1,20 +1,17 @@
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
-import Call from './Call';
-import FetchApi from './FetchApi';
+import Signup from './Signup';
+import Signin from './Signin';
 
 function App() {
   return (
     <div className="App">
-      <Call />
       <Routes>
-        <Route path="/" element={<FetchApi />} />
+        <Route path="/" element={<Signup />} />
+        <Route path="/signin" element={<Signin />} />
       </Routes>
     </div>
   );
 }
-
 export default App;
-
-
 
